@@ -1,13 +1,4 @@
-export type Locale =
-  | "en-CA"
-  | "es-MX"
-  | "pt-BR"
-  | "de-DE"
-  | "fr-FR"
-  | "hu-HU"
-  | "it-IT"
-  | "pl-PL"
-  | "sv-SE";
+export type Locale = "en-CA" | "es-MX";
 
 export type Messages = {
   name: sting;
@@ -41,8 +32,6 @@ export type Messages = {
   a6: string;
   q7: string;
   a7: string;
-  q8?: string;
-  a8?: string;
   GameTitle: string;
   Game1: string;
   Game2: string;
@@ -74,17 +63,6 @@ export type Messages = {
   Settings6: string;
   Settings7: string;
   Settings8: string;
-  Settings9: string;
-  Settings10: string;
-  Settings11: string;
-  Answer: string;
-  Closest: string;
-  Guessed: string;
-  PracticeMode: string;
-  PracticeExit: string;
-  PracticeNew: string;
-  SortByGuesses: string;
-  SortByDistance: string;
 };
 
 export type LocaleMessages = Record<Locale, Messages>;
