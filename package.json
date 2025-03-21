@@ -1,6 +1,7 @@
 {
   "name": "globle",
   "version": "1.6.0",
+  "homepage": "https://chase-poirier.github.io/Globle2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
